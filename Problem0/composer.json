@@ -1,0 +1,23 @@
+{
+  "name": "mike/problem0",
+  "authors": [
+    {
+      "name": "Mike Tsitsinovskii",
+      "email": "mimits89@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  },
+  "require": {
+    "symfony/event-dispatcher": "^3.3",
+    "php-di/php-di": "^5.4",
+    "mnapoli/silly-php-di": "^1.1",
+    "swaggest/json-diff": "^1.1",
+    "guzzlehttp/guzzle": "~6.0",
+    "arvenil/ninja-mutex": "*",
+    "goodby/csv": "^1.3"
+  }
+}
